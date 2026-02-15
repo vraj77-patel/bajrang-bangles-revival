@@ -45,21 +45,13 @@ const HeroSection = () => {
         </p>
 
         <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up"
+          className="flex items-center justify-center animate-fade-up"
           style={{ animationDelay: "0.45s" }}
         >
           <Button
             size="lg"
-            onClick={() => scrollTo("#products")}
-            className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-bold text-base px-8 shadow-lg"
-          >
-            View Products
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
             onClick={() => scrollTo("#contact")}
-            className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-body font-bold text-base px-8"
+            className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-bold text-base px-8 shadow-lg"
           >
             Contact Us
           </Button>

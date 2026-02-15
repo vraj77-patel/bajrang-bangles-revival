@@ -7,10 +7,10 @@ import { toast } from "@/hooks/use-toast";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "+91 98765 43210", href: "tel:+919876543210" },
-  { icon: MessageCircle, label: "WhatsApp", value: "Chat with us", href: "https://wa.me/919876543210" },
-  { icon: Mail, label: "Email", value: "info@shreebajrang.com", href: "mailto:info@shreebajrang.com" },
-  { icon: MapPin, label: "Address", value: "Bangles Market, Firozabad, UP, India", href: "#" },
+  { icon: Phone, label: "Phone", value: "+91 86905 99990", href: "tel:+918690599990" },
+  { icon: MessageCircle, label: "WhatsApp", value: "Chat with us", href: "https://wa.me/918690599990" },
+  { icon: Mail, label: "Email", value: "shreebajrangpipe@gmail.com", href: "mailto:shreebajrangpipe@gmail.com" },
+  { icon: MapPin, label: "Address", value: "Balaji Estate, Manda Dunger, Rajkot - 360003", href: "#" },
 ];
 
 const ContactSection = () => {
@@ -27,7 +27,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 md:py-28 bg-background">
+    <section id="contact" className="py-20 md:py-28 bg-secondary">
       <div ref={ref} className="container mx-auto px-4">
         <div className="text-center mb-14">
           <span className="text-accent font-body font-bold text-sm tracking-widest uppercase">
