@@ -11,7 +11,8 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/80 to-primary/60" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-primary/70" />
+      <div className="absolute inset-0 bg-black/20" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,hsl(var(--accent)/0.15),transparent_60%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,hsl(var(--primary-foreground)/0.08),transparent_50%)]" />
 
@@ -28,12 +29,12 @@ const HeroSection = () => {
         </div>
 
         <h1
-          className="font-display font-extrabold text-4xl sm:text-5xl md:text-7xl text-primary-foreground leading-tight mb-6 animate-fade-up"
+          className="font-display font-extrabold text-4xl sm:text-5xl md:text-7xl text-primary-foreground leading-tight mb-6 animate-fade-up drop-shadow-[0_2px_10px_rgba(0,0,0,0.4)]"
           style={{ animationDelay: "0.15s" }}
         >
           Shree Bajrang
           <br />
-          <span className="text-accent">Bangles Pipe</span>
+          <span className="text-accent">Acrylic Bangles Pipe</span>
         </h1>
 
         <p
