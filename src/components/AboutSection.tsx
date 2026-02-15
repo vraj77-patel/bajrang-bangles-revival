@@ -25,7 +25,7 @@ const AboutSection = () => {
               <span className="text-primary">Acrylic Bangles Pipes</span>
             </h2>
             <p className="font-body text-muted-foreground text-lg leading-relaxed mb-4">
-              Shree Bajrang Bangles Pipe is a leading manufacturer of premium acrylic
+              Shree Bajrang Acrylic Bangles Pipe is a leading manufacturer of premium acrylic
               bangles pipes used widely by jewelers, wholesalers, and retailers
               across India. Our products serve as elegant display and storage
               solutions for traditional Indian bangles.

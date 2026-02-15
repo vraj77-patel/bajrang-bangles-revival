@@ -7,10 +7,9 @@ import { toast } from "@/hooks/use-toast";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "+91 86905 99990", href: "tel:+918690599990" },
-  { icon: MessageCircle, label: "WhatsApp", value: "Chat with us", href: "https://wa.me/918690599990" },
+  { icon: Phone, label: "Phone / WhatsApp", value: "+91 86905 99990", href: "https://wa.me/918690599990" },
   { icon: Mail, label: "Email", value: "shreebajrangpipe@gmail.com", href: "mailto:shreebajrangpipe@gmail.com" },
-  { icon: MapPin, label: "Address", value: "Balaji Estate, Manda Dunger, Rajkot - 360003", href: "#" },
+  { icon: MapPin, label: "Address", value: "Balaji Estate, Manda Dunger, Rajkot - 360003", href: "https://www.google.com/maps/search/Balaji+Estate,+Manda+Dunger,+Rajkot+360003" },
 ];
 
 const ContactSection = () => {

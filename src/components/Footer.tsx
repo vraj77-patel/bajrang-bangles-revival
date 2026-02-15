@@ -13,11 +13,11 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <img src={logo} alt="Shree Bajrang Bangles Pipe" className="w-10 h-10 rounded-full object-cover" />
               <span className="font-display font-bold text-lg">
-                Shree Bajrang Bangles Pipe
+                Shree Bajrang Acrylic Bangles Pipe
               </span>
             </div>
             <p className="font-body text-sm text-primary-foreground/70">
-              Premium manufacturer of acrylic bangles pipes. Quality, variety, and trust since years.
+              Premium manufacturer of acrylic bangles pipes. Quality, variety, and trust since years. Shree Bajrang Acrylic Bangles Pipe.
             </p>
           </div>
 

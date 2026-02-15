@@ -35,7 +35,7 @@ const Header = () => {
         <button onClick={() => handleClick("#home")} className="flex items-center gap-2">
           <img src={logo} alt="Shree Bajrang Bangles Pipe" className="w-10 h-10 rounded-full object-cover" />
           <span className="font-display font-bold text-lg text-primary hidden sm:block">
-            Shree Bajrang Bangles Pipe
+            Shree Bajrang Acrylic Bangles Pipe
           </span>
         </button>
 
