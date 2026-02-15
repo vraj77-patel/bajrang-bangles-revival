@@ -34,8 +34,8 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3 border-primary text-muted-foreground">
         <button onClick={() => handleClick("#home")} className="flex items-center gap-2 text-accent text-sm">
           <img src={logo} alt="Shree Bajrang Bangles Pipe" className="w-10 h-10 rounded-full object-cover" />
-          <span className="font-display font-bold text-lg text-primary hidden sm:block">
-            Shree Bajrang Bangles Pipe
+          <span className="font-display font-bold text-lg hidden sm:block text-accent">
+            Shree Bajrang Acrylic  Bangles Pipe
           </span>
         </button>
 
