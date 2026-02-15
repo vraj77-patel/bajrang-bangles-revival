@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   const scrollTo = (id: string) =>
     document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
@@ -9,9 +11,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary-foreground/20 flex items-center justify-center">
-                <span className="font-display font-bold text-lg">SB</span>
-              </div>
+              <img src={logo} alt="Shree Bajrang Bangles Pipe" className="w-10 h-10 rounded-full object-cover" />
               <span className="font-display font-bold text-lg">
                 Shree Bajrang Bangles Pipe
               </span>
@@ -25,7 +25,7 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-bold text-lg mb-4">Quick Links</h4>
             <div className="flex flex-col gap-2">
-              {["#home", "#about", "#products", "#contact"].map((href) => (
+              {["#home", "#about", "#contact"].map((href) => (
                 <button
                   key={href}
                   onClick={() => scrollTo(href)}
@@ -41,9 +41,9 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-bold text-lg mb-4">Contact Info</h4>
             <div className="space-y-2 font-body text-sm text-primary-foreground/70">
-              <p>📞 +91 98765 43210</p>
-              <p>📧 info@shreebajrang.com</p>
-              <p>📍 Bangles Market, Firozabad, UP, India</p>
+              <p>📞 +91 86905 99990</p>
+              <p>📧 shreebajrangpipe@gmail.com</p>
+              <p>📍 Balaji Estate, Manda Dunger, Rajkot - 360003</p>
             </div>
           </div>
         </div>
